@@ -1,7 +1,13 @@
 import Header from "../components/lp/Header";
+import Hero from "../components/lp/Hero";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
