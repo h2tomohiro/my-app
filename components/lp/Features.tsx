@@ -4,7 +4,7 @@ import Image from "next/image";
 const Features = () => {
   return (
     <>
-      <div>
+      <div className="bg-yellow-500">
         <div className="container">
           <div className="lg:flex py-32 items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
@@ -24,7 +24,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="bg-yellow-500">
+      <div>
         <div className="container">
           <div className="lg:flex py-32 items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0 order-1">
@@ -50,7 +50,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="bg-yellow-500">
         <div className="container">
           <div className="lg:flex py-32 items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
