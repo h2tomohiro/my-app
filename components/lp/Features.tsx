@@ -6,8 +6,8 @@ const Features = () => {
     <>
       <div>
         <div className="container">
-          <div className="flex py-32 items-center">
-            <div className="w-1/2">
+          <div className="lg:flex py-32 items-center">
+            <div className="lg:w-1/2 mb-10 lg:mb-0">
               <h2 className="fond-bold text-3xl leading-relaxed mb-8">
                 誰でも無料で
                 <br />
@@ -17,7 +17,7 @@ const Features = () => {
                 急に有料化する可能性が常にあります。私たちは常にそのタイミングを見計らっています。
               </p>
             </div>
-            <div className="fond-bold w-1/2 text-center">
+            <div className="fond-bold lg:w-1/2 text-center">
               <span className="text-9xl mr-2">0</span>
               <span className="text-2xl">YEN</span>
             </div>
@@ -26,8 +26,8 @@ const Features = () => {
       </div>
       <div className="bg-yellow-500">
         <div className="container">
-          <div className="flex py-32 items-center">
-            <div className="w-1/2 order-1">
+          <div className="lg:flex py-32 items-center">
+            <div className="lg:w-1/2 mb-10 lg:mb-0 order-1">
               <h2 className="fond-bold text-3xl leading-relaxed mb-8">
                 誰でも無料で
                 <br />
@@ -37,7 +37,7 @@ const Features = () => {
                 急に有料化する可能性が常にあります。私たちは常にそのタイミングを見計らっています。
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <div className="w-1/2" mx-auto>
                 <Image
                   src="/images/hero.svg"
@@ -52,8 +52,8 @@ const Features = () => {
       </div>
       <div>
         <div className="container">
-          <div className="flex py-32 items-center">
-            <div className="w-1/2">
+          <div className="lg:flex py-32 items-center">
+            <div className="lg:w-1/2 mb-10 lg:mb-0">
               <h2 className="fond-bold text-3xl leading-relaxed mb-8">
                 誰でも無料で
                 <br />
@@ -63,7 +63,7 @@ const Features = () => {
                 急に有料化する可能性が常にあります。私たちは常にそのタイミングを見計らっています。
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <div className="w-1/2" mx-auto>
                 <Image
                   src="/images/hero.svg"
